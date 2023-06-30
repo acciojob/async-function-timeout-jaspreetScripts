@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const form = document.querySelector('form');
 const inputText= document.getElementById('text');
-const inputDelay =  document.getElementById('Delay')
+const inputDelay =  document.getElementById('delay')
 const outputDiv= document.getElementById('output')
 
 form.addEventListener('submit',async(event)=>{
@@ -23,7 +23,6 @@ async displayTextAfterDelay(text,delay){
 function sleep(ms){
 		return new Promise(resolve=> setTimeout(resolve,ms));
 
-	
 }
 
 
